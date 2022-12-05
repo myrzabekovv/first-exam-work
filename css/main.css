@@ -1,0 +1,35 @@
+main > h1 {
+  font-weight: normal;
+  color: white;
+  font-size: 150px;
+  letter-spacing: 0.3em;
+} 
+
+@media screen and (max-width: 1030px) {
+  main > h1 {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main > h1 {
+    font-size: 40px;
+  }
+  main > h2 {
+    font-size: 18px;
+  }
+}
+
+h2 {
+  font-weight: normal;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  justify-content: center;  
+}

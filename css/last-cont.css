@@ -1,0 +1,81 @@
+/* .last-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+  gap: 30px;
+} */
+
+.under-subscribe {
+  font-size: 18px;
+  width: 721px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 700px) {
+  .under-subscribe {
+    width: unset;
+  }
+  .cont-email {
+    padding: 0;
+  }
+}
+
+.last-container > h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+}
+
+.cont-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 100px;
+}
+
+
+.input-email {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 335px;
+  height: 50px;
+  letter-spacing: 0.1em;
+  color: white;
+  outline: none;
+}
+
+input::placeholder {
+  font-weight: normal;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.subscribe {
+  border: none;
+  background-color: transparent;
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  background: #000000;
+  width: 335px;
+  height: 64px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.subscribe:hover {
+  background-color: #2B2B2B;
+}
+
+.subscribe:active {
+  background: #AF2A2A;
+  box-shadow: 0px 0px 50px 5px #813434;
+}

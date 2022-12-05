@@ -1,0 +1,56 @@
+.info > h1 {
+  color: white;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+
+.info > p {
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  max-width: 348px;
+}
+
+.photo {
+  display: flex;
+  gap: 22px;
+}
+
+img {
+  transition: 1.1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.left-side-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+@media screen and (max-width: 1030px) {
+  .middle-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .info {
+    max-width: 590px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photo {
+    flex-direction: column;
+    margin-bottom: 67px;
+  }
+  .info {
+    max-width: 348px;
+  }
+}

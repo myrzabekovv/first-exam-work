@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-bottom: 283px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  margin-left: 40px;
+  letter-spacing: 0.1em;
+}
+
+.buttons {
+  display: flex;
+  gap: 60px;
+}
+
+.link:nth-child(4) {
+  margin-right: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500px;
+  letter-spacing: 0.1em;
+}
+
+.link:hover {
+  color: #D28888;
+}
+
+@media screen and (max-width: 821px) {
+  .link {
+    display: none;
+  }
+}
+
+.burger {
+  margin-right: 40px;
+}
+
+@media screen and (min-width: 821px) {
+  .burger {
+    display: none;
+  }
+}
