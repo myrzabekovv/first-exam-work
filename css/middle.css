@@ -43,6 +43,9 @@ img:hover {
   .info {
     max-width: 590px;
   }
+  .photo {
+    margin-bottom: 111px;
+  }
 }
 
 @media screen and (max-width: 600px) {
